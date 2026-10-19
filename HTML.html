@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tah Doces Gourmet - Cardápio</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;}
+body{background:linear-gradient(135deg,#fff0f5 0%,#ffe4ee 50%,#f8e1e9 100%);color:#5c3a2e;position:relative;overflow-x:hidden;min-height:100vh;}
+.flower{position:absolute;opacity:0.85;pointer-events:none;z-index:0;}
+.f1{top:10px;left:10px;width:90px;}
+.f2{top:20px;right:20px;width:100px;}
+.f3{top:340px;left:0px;width:70px;}
+.f4{top:400px;right:5px;width:80px;}
+.f5{bottom:200px;left:15px;width:90px;}
+.f6{bottom:180px;right:10px;width:100px;}
+.f7{bottom:20px;left:40%;width:70px;}
+.f8{top:700px;left:5px;width:75px;}
+.f9{top:750px;right:15px;width:85px;}
+header{text-align:center;padding:40px 20px 20px;position:relative;z-index:2;}
+header h1{font-size:2.8em;color:#a94465;text-shadow:2px 2px 0 #fff, 4px 4px 6px rgba(0,0,0,0.1);letter-spacing:2px;font-weight:800;}
+header p{color:#8a5a44;margin-top:8px;font-size:1.1em;font-style:italic;}
+.container{max-width:1100px;margin:0 auto;padding:20px;position:relative;z-index:2;}
+.menu-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-top:20px;}
+@media(max-width:800px){.menu-grid{grid-template-columns:1fr;}}
+.menu-card{background:rgba(255,255,255,0.9);border-radius:20px;padding:30px 25px;box-shadow:0 10px 30px rgba(169,68,101,0.2);border:3px solid #f3b6c9;}
+.menu-card h2{text-align:center;color:#8a3b57;font-size:1.5em;margin-bottom:20px;border-bottom:2px dashed #d98bab;padding-bottom:12px;}
+.price-box{background:#fdeef3;border-radius:14px;padding:15px 18px;margin-bottom:18px;border-left:5px solid #c9678b;}
+.price-box strong{color:#7a4a30;font-size:1.15em;display:block;}
+.price-box span{color:#8a5a44;font-size:0.95em;}
+.flavors-title{margin-top:18px;color:#a94465;font-weight:700;font-size:1.05em;}
+.flavors-list{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px;}
+.flavor-tag{background:#f7c6d9;color:#6e3550;padding:6px 12px;border-radius:20px;font-size:0.88em;font-weight:600;}
+.special-card .flavor-tag{background:#e8c6a8;color:#5c3a2e;}
+.special-card{border-color:#d3a679;}
+.special-card h2{border-bottom-color:#c98e5c;color:#7a4a30;}
+.special-card .price-box{background:#fbf1e6;border-left-color:#b97a4a;}
+.info-section{background:rgba(255,255,255,0.92);border-radius:20px;padding:30px;margin-top:35px;box-shadow:0 8px 25px rgba(169,68,101,0.15);border:2px solid #f3b6c9;}
+.info-section h3{color:#a94465;text-align:center;font-size:1.4em;margin-bottom:15px;}
+.info-section p{text-align:center;color:#5c3a2e;margin-bottom:20px;font-size:1.05em;}
+.payments{display:flex;flex-wrap:wrap;justify-content:center;gap:20px;}
+.payment-item{background:#fdeef3;border-radius:14px;padding:14px 22px;display:flex;align-items:center;gap:10px;font-weight:600;color:#7a4a30;box-shadow:0 4px 10px rgba(0,0,0,0.05);}
+.payment-item svg{width:26px;height:26px;}
+.cta-wrapper{text-align:center;margin:45px 0 30px;position:relative;z-index:2;}
+#startBtn{background:linear-gradient(135deg,#25D366,#1ebc59);color:#fff;border:none;padding:18px 45px;font-size:1.3em;border-radius:50px;font-weight:800;cursor:pointer;box-shadow:0 10px 25px rgba(37,211,102,0.4);display:inline-flex;align-items:center;gap:12px;transition:transform 0.2s;}
+#startBtn:hover{transform:scale(1.05);}
+#startBtn svg{width:28px;height:28px;}
+footer{text-align:center;padding:20px;color:#8a5a44;font-size:0.9em;position:relative;z-index:2;}
+</style>
+<style id="__vpe_style">
+                    .__vpe_editable {
+                        cursor: text !important;
+                        outline: 1px dashed rgba(96,165,250,.22) !important;
+                        border-radius: 2px !important;
+                    }
+                    .__vpe_editable:hover {
+                        outline: 1.5px dashed rgba(96,165,250,.65) !important;
+                        background: rgba(96,165,250,.035) !important;
+                    }
+                    .__vpe_editable:focus {
+                        outline: 2px solid rgba(96,165,250,.9) !important;
+                        background: rgba(96,165,250,.05) !important;
+                        border-radius: 2px !important;
+                    }
+                    .__vpe_editable::before,
+                    .__vpe_editable::after { content: none !important; }
+                    .__vpe_img_hover  {
+                        cursor: pointer !important;
+                        outline: 2px dashed rgba(96,165,250,.85) !important;
+                        border-radius: 3px !important;
+                        position: relative !important;
+                    }
+                    .__vpe_img_hover::after {
+                        content: '📁 Trocar imagem';
+                        position: absolute;
+                        bottom: 6px; left: 50%; transform: translateX(-50%);
+                        background: rgba(0,0,0,.78);
+                        color: #fff;
+                        font-size: 11px; font-family: sans-serif;
+                        padding: 3px 8px; border-radius: 4px;
+                        pointer-events: none; white-space: nowrap;
+                        z-index: 9999;
+                    }
+                    .__vpe_link_hover { cursor: pointer !important; outline: 2px dashed rgba(74,222,128,.7)  !important; border-radius: 3px !important; }
+                </style><style id="__vpe_section_style">
+                        .__vpe_section_hover {
+                            outline: 2px solid rgba(167,139,250,.55) !important;
+                            outline-offset: 3px !important;
+                            border-radius: 6px !important;
+                        }
+                    </style></head>
+<body>
+
+<svg class="flower f1" viewBox="0 0 100 100"><g><circle cx="50" cy="30" r="18" fill="#f6a5c0"></circle><circle cx="30" cy="50" r="18" fill="#f6a5c0"></circle><circle cx="70" cy="50" r="18" fill="#f6a5c0"></circle><circle cx="50" cy="65" r="18" fill="#f6a5c0"></circle><circle cx="50" cy="48" r="14" fill="#d1477a"></circle></g></svg>
+<svg class="flower f2" viewBox="0 0 100 100"><g><circle cx="50" cy="30" r="18" fill="#e8c6a8"></circle><circle cx="30" cy="50" r="18" fill="#e8c6a8"></circle><circle cx="70" cy="50" r="18" fill="#e8c6a8"></circle><circle cx="50" cy="65" r="18" fill="#e8c6a8"></circle><circle cx="50" cy="48" r="14" fill="#a9713f"></circle></g></svg>
+<svg class="flower f3" viewBox="0 0 100 100"><g><circle cx="50" cy="30" r="16" fill="#f3b6c9"></circle><circle cx="30" cy="50" r="16" fill="#f3b6c9"></circle><circle cx="70" cy="50" r="16" fill="#f3b6c9"></circle><circle cx="50" cy="65" r="16" fill="#f3b6c9"></circle><circle cx="50" cy="48" r="12" fill="#c9678b"></circle></g></svg>
+<svg class="flower f4" viewBox="0 0 100 100"><g><circle cx="50" cy="30" r="18" fill="#d3a679"></circle><circle cx="30" cy="50" r="18" fill="#d3a679"></circle><circle cx="70" cy="50" r="18" fill="#d3a679"></circle><circle cx="50" cy="65" r="18" fill="#d3a679"></circle><circle cx="50" cy="48" r="14" fill="#7a4a30"></circle></g></svg>
+<svg class="flower f5" viewBox="0 0 100 100"><g><circle cx="50" cy="30" r="17" fill="#f6a5c0"></circle><circle cx="30" cy="50" r="17" fill="#f6a5c0"></circle><circle cx="70" cy="50" r="17" fill="#f6a5c0"></circle><circle cx="50" cy="65" r="17" fill="#f6a5c0"></circle><circle cx="50" cy="48" r="13" fill="#a94465"></circle></g></svg>
+<svg class="flower f6" viewBox="0 0 100 100"><g><circle cx="50" cy="30" r="18" fill="#e8c6a8"></circle><circle cx="30" cy="50" r="18" fill="#e8c6a8"></circle><circle cx="70" cy="50" r="18" fill="#e8c6a8"></circle><circle cx="50" cy="65" r="18" fill="#e8c6a8"></circle><circle cx="50" cy="48" r="14" fill="#8a5a44"></circle></g></svg>
+<svg class="flower f7" viewBox="0 0 100 100"><g><circle cx="50" cy="30" r="15" fill="#f3b6c9"></circle><circle cx="30" cy="50" r="15" fill="#f3b6c9"></circle><circle cx="70" cy="50" r="15" fill="#f3b6c9"></circle><circle cx="50" cy="65" r="15" fill="#f3b6c9"></circle><circle cx="50" cy="48" r="11" fill="#d1477a"></circle></g></svg>
+<svg class="flower f8" viewBox="0 0 100 100"><g><circle cx="50" cy="30" r="16" fill="#f6a5c0"></circle><circle cx="30" cy="50" r="16" fill="#f6a5c0"></circle><circle cx="70" cy="50" r="16" fill="#f6a5c0"></circle><circle cx="50" cy="65" r="16" fill="#f6a5c0"></circle><circle cx="50" cy="48" r="12" fill="#c9678b"></circle></g></svg>
+<svg class="flower f9" viewBox="0 0 100 100"><g><circle cx="50" cy="30" r="17" fill="#d3a679"></circle><circle cx="30" cy="50" r="17" fill="#d3a679"></circle><circle cx="70" cy="50" r="17" fill="#d3a679"></circle><circle cx="50" cy="65" r="17" fill="#d3a679"></circle><circle cx="50" cy="48" r="13" fill="#7a4a30"></circle></g></svg>
+
+<header class="">
+<h1 contenteditable="true" class="__vpe_editable">TAH DOCES GOURMET</h1>
+<p contenteditable="true" class="__vpe_editable">Doçura, carinho e sabor em cada brigadeiro 💕</p>
+</header>
+
+<div class="container">
+<div class="menu-grid">
+
+<div class="menu-card">
+<h2 contenteditable="true" class="__vpe_editable">Brigadeiros Tradicionais</h2>
+<div class="price-box __vpe_editable" contenteditable="true">
+<strong>Cento de Brigadeiros - R$ 200</strong>
+<span contenteditable="true" class="__vpe_editable">Escolha até 4 sabores</span>
+</div>
+<div class="price-box __vpe_editable" contenteditable="true">
+<strong>Meio Cento de Brigadeiros - R$ 100</strong>
+<span contenteditable="true" class="__vpe_editable">Escolha até 2 sabores</span>
+</div>
+<div class="flavors-title __vpe_editable" contenteditable="true">Sabores disponíveis:</div>
+<div class="flavors-list __vpe_editable" contenteditable="true">
+<span class="flavor-tag __vpe_editable" contenteditable="true">Ao Leite</span>
+<span class="flavor-tag __vpe_editable" contenteditable="true">Ao Leite com Coco</span>
+<span class="flavor-tag __vpe_editable" contenteditable="true">Beijinho</span>
+<span class="flavor-tag __vpe_editable" contenteditable="true">Chocolate Branco</span>
+<span class="flavor-tag __vpe_editable" contenteditable="true">Leite Ninho</span>
+<span class="flavor-tag __vpe_editable" contenteditable="true">Bicho de Pé</span>
+<span class="flavor-tag __vpe_editable" contenteditable="true">Sensação</span>
+<span class="flavor-tag __vpe_editable" contenteditable="true">Prestígio</span>
+<span class="flavor-tag __vpe_editable" contenteditable="true">Casadinho</span>
+<span class="flavor-tag __vpe_editable" contenteditable="true">Maracujá</span>
+<span class="flavor-tag __vpe_editable" contenteditable="true">Milho</span>
+<span class="flavor-tag __vpe_editable" contenteditable="true">Limão</span>
+<span class="flavor-tag __vpe_editable" contenteditable="true">Morangoninho</span>
+<span class="flavor-tag __vpe_editable" contenteditable="true">Meio Amargo</span>
+<span class="flavor-tag __vpe_editable" contenteditable="true">Café</span>
+<span class="flavor-tag __vpe_editable" contenteditable="true">Napolitano</span>
+<span class="flavor-tag __vpe_editable" contenteditable="true">Coco Queimado</span>
+<span class="flavor-tag __vpe_editable" contenteditable="true">Cajuzinho</span>
+<span class="flavor-tag __vpe_editable" contenteditable="true">Paçoca</span>
+</div>
+</div>
+
+<div class="menu-card special-card">
+<h2 contenteditable="true" class="__vpe_editable">Brigadeiros Especiais</h2>
+<div class="price-box __vpe_editable" contenteditable="true">
+<strong>Cento de Brigadeiros - R$ 220</strong>
+<span contenteditable="true" class="__vpe_editable">Escolha até 4 sabores</span>
+</div>
+<div class="price-box __vpe_editable" contenteditable="true">
+<strong>Meio Cento de Brigadeiros - R$ 110</strong>
+<span contenteditable="true" class="__vpe_editable">Escolha até 2 sabores</span>
+</div>
+<div class="flavors-title __vpe_editable" contenteditable="true">Sabores disponíveis:</div>
+<div class="flavors-list __vpe_editable" contenteditable="true">
+<span class="flavor-tag __vpe_editable" contenteditable="true">Floresta Negra</span>
+<span class="flavor-tag __vpe_editable" contenteditable="true">Floresta Branca</span>
+<span class="flavor-tag __vpe_editable" contenteditable="true">Ninho com Nutella</span>
+<span class="flavor-tag __vpe_editable" contenteditable="true">Surpresa de Uva</span>
+<span class="flavor-tag __vpe_editable" contenteditable="true">Churros</span>
+<span class="flavor-tag __vpe_editable" contenteditable="true">Doce de Leite</span>
+<span class="flavor-tag __vpe_editable" contenteditable="true">Doce de Leite com Coco</span>
+<span class="flavor-tag __vpe_editable" contenteditable="true">Olho de Sogra</span>
+<span class="flavor-tag __vpe_editable" contenteditable="true">Oreo</span>
+<span class="flavor-tag __vpe_editable" contenteditable="true">Ferrero</span>
+<span class="flavor-tag __vpe_editable" contenteditable="true">Confete</span>
+<span class="flavor-tag __vpe_editable" contenteditable="true">Nozes</span>
+<span class="flavor-tag __vpe_editable" contenteditable="true">Cereja</span>
+<span class="flavor-tag __vpe_editable" contenteditable="true">Romeu e Julieta</span>
+<span class="flavor-tag __vpe_editable" contenteditable="true">Bicho de Pé com Nutella</span>
+</div>
+</div>
+
+</div>
+
+<div class="info-section">
+<h3 contenteditable="true" class="__vpe_editable">Informações de Pagamento</h3>
+<p contenteditable="true" class="__vpe_editable">Para realizar seu pedido é necessário pagar <strong>50% do valor</strong> do pedido ou o <strong>valor total</strong> antecipado.</p>
+<div class="payments">
+<div class="payment-item __vpe_editable" contenteditable="true">
+<svg viewBox="0 0 24 24" fill="none"><path d="M12 2L2 12L12 22L22 12L12 2Z" fill="#a94465"></path></svg>
+Pix
+</div>
+<div class="payment-item __vpe_editable" contenteditable="true">
+<svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#8a5a44"></circle></svg>
+Dinheiro
+</div>
+<div class="payment-item __vpe_editable" contenteditable="true">
+<svg viewBox="0 0 24 24" fill="none"><rect x="2" y="5" width="20" height="14" rx="2" fill="#c9678b"></rect><rect x="2" y="9" width="20" height="3" fill="#fff"></rect></svg>
+Cartão de Débito (link com acréscimo de 2%)
+</div>
+<div class="payment-item __vpe_editable" contenteditable="true">
+<svg viewBox="0 0 24 24" fill="none"><rect x="2" y="5" width="20" height="14" rx="2" fill="#b97a4a"></rect><rect x="2" y="9" width="20" height="3" fill="#fff"></rect></svg>
+Cartão de Crédito (link com acréscimo de 5%)
+</div>
+</div>
+</div>
+
+<div class="cta-wrapper __vpe_editable" contenteditable="true">
+<button id="startBtn" onclick="window.open('https://wa.me/5511998145005?text=Ola!%20Gostaria%20de%20fazer%20um%20pedido%20de%20brigadeiros%20gourmet','_blank')" style="box-shadow: rgba(37, 211, 102, 0.4) 0px 10px 25px;" contenteditable="true" class="__vpe_editable">
+<svg viewBox="0 0 24 24" fill="#fff"><path d="M20.5 3.5A11 11 0 0 0 3.6 17.2L2 22l4.9-1.6a11 11 0 0 0 5.1 1.3h0a11 11 0 0 0 8.5-18.2zM12 20a9 9 0 0 1-4.6-1.3l-.3-.2-3 1 1-2.9-.2-.3A9 9 0 1 1 12 20zm5-6.7c-.3-.1-1.6-.8-1.9-.9-.2-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.5.1-.3-.1-1.2-.4-2.2-1.4-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.4.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.2-.4.1-.2 0-.4 0-.5-.1-.1-.6-1.4-.8-1.9-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s1 2.6 1.1 2.7c.1.2 2 3 4.8 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.1.2-1.3-.1-.1-.3-.2-.6-.3z"></path></svg>
+Falar com a Tah Doces no WhatsApp
+</button>
+</div>
+</div>
+
+<footer>
+© 2024 Tah Doces Gourmet - Feito com amor e muito chocolate ❤
+</footer>
+
+<script>
+document.getElementById('startBtn').addEventListener('mouseenter',function(){this.style.boxShadow='0 12px 30px rgba(37,211,102,0.6)';});
+document.getElementById('startBtn').addEventListener('mouseleave',function(){this.style.boxShadow='0 10px 25px rgba(37,211,102,0.4)';});
+</script>
+
+</body></html>

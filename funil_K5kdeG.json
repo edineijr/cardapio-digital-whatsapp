@@ -1,0 +1,638 @@
+{
+    "name": "Card\u00e1pio Tah Doces Gourmet",
+    "nodes": [
+        {
+            "id": "node_1mrxl1rce",
+            "type": "html",
+            "position": {
+                "x": 140,
+                "y": 185
+            },
+            "data": {
+                "html_content": "<!DOCTYPE html>\n<html lang=\"pt-BR\"><head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Tah Doces Gourmet - Card\u00e1pio</title>\n<style>\n*{margin:0;padding:0;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;}\nbody{background:linear-gradient(135deg,#fff0f5 0%,#ffe4ee 50%,#f8e1e9 100%);color:#5c3a2e;position:relative;overflow-x:hidden;min-height:100vh;}\n.flower{position:absolute;opacity:0.85;pointer-events:none;z-index:0;}\n.f1{top:10px;left:10px;width:90px;}\n.f2{top:20px;right:20px;width:100px;}\n.f3{top:340px;left:0px;width:70px;}\n.f4{top:400px;right:5px;width:80px;}\n.f5{bottom:200px;left:15px;width:90px;}\n.f6{bottom:180px;right:10px;width:100px;}\n.f7{bottom:20px;left:40%;width:70px;}\n.f8{top:700px;left:5px;width:75px;}\n.f9{top:750px;right:15px;width:85px;}\nheader{text-align:center;padding:40px 20px 20px;position:relative;z-index:2;}\nheader h1{font-size:2.8em;color:#a94465;text-shadow:2px 2px 0 #fff, 4px 4px 6px rgba(0,0,0,0.1);letter-spacing:2px;font-weight:800;}\nheader p{color:#8a5a44;margin-top:8px;font-size:1.1em;font-style:italic;}\n.container{max-width:1100px;margin:0 auto;padding:20px;position:relative;z-index:2;}\n.menu-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-top:20px;}\n@media(max-width:800px){.menu-grid{grid-template-columns:1fr;}}\n.menu-card{background:rgba(255,255,255,0.9);border-radius:20px;padding:30px 25px;box-shadow:0 10px 30px rgba(169,68,101,0.2);border:3px solid #f3b6c9;}\n.menu-card h2{text-align:center;color:#8a3b57;font-size:1.5em;margin-bottom:20px;border-bottom:2px dashed #d98bab;padding-bottom:12px;}\n.price-box{background:#fdeef3;border-radius:14px;padding:15px 18px;margin-bottom:18px;border-left:5px solid #c9678b;}\n.price-box strong{color:#7a4a30;font-size:1.15em;display:block;}\n.price-box span{color:#8a5a44;font-size:0.95em;}\n.flavors-title{margin-top:18px;color:#a94465;font-weight:700;font-size:1.05em;}\n.flavors-list{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px;}\n.flavor-tag{background:#f7c6d9;color:#6e3550;padding:6px 12px;border-radius:20px;font-size:0.88em;font-weight:600;}\n.special-card .flavor-tag{background:#e8c6a8;color:#5c3a2e;}\n.special-card{border-color:#d3a679;}\n.special-card h2{border-bottom-color:#c98e5c;color:#7a4a30;}\n.special-card .price-box{background:#fbf1e6;border-left-color:#b97a4a;}\n.info-section{background:rgba(255,255,255,0.92);border-radius:20px;padding:30px;margin-top:35px;box-shadow:0 8px 25px rgba(169,68,101,0.15);border:2px solid #f3b6c9;}\n.info-section h3{color:#a94465;text-align:center;font-size:1.4em;margin-bottom:15px;}\n.info-section p{text-align:center;color:#5c3a2e;margin-bottom:20px;font-size:1.05em;}\n.payments{display:flex;flex-wrap:wrap;justify-content:center;gap:20px;}\n.payment-item{background:#fdeef3;border-radius:14px;padding:14px 22px;display:flex;align-items:center;gap:10px;font-weight:600;color:#7a4a30;box-shadow:0 4px 10px rgba(0,0,0,0.05);}\n.payment-item svg{width:26px;height:26px;}\n.cta-wrapper{text-align:center;margin:45px 0 30px;position:relative;z-index:2;}\n#startBtn{background:linear-gradient(135deg,#25D366,#1ebc59);color:#fff;border:none;padding:18px 45px;font-size:1.3em;border-radius:50px;font-weight:800;cursor:pointer;box-shadow:0 10px 25px rgba(37,211,102,0.4);display:inline-flex;align-items:center;gap:12px;transition:transform 0.2s;}\n#startBtn:hover{transform:scale(1.05);}\n#startBtn svg{width:28px;height:28px;}\nfooter{text-align:center;padding:20px;color:#8a5a44;font-size:0.9em;position:relative;z-index:2;}\n</style>\n</head>\n<body>\n\n<svg class=\"flower f1\" viewBox=\"0 0 100 100\"><g><circle cx=\"50\" cy=\"30\" r=\"18\" fill=\"#f6a5c0\"></circle><circle cx=\"30\" cy=\"50\" r=\"18\" fill=\"#f6a5c0\"></circle><circle cx=\"70\" cy=\"50\" r=\"18\" fill=\"#f6a5c0\"></circle><circle cx=\"50\" cy=\"65\" r=\"18\" fill=\"#f6a5c0\"></circle><circle cx=\"50\" cy=\"48\" r=\"14\" fill=\"#d1477a\"></circle></g></svg>\n<svg class=\"flower f2\" viewBox=\"0 0 100 100\"><g><circle cx=\"50\" cy=\"30\" r=\"18\" fill=\"#e8c6a8\"></circle><circle cx=\"30\" cy=\"50\" r=\"18\" fill=\"#e8c6a8\"></circle><circle cx=\"70\" cy=\"50\" r=\"18\" fill=\"#e8c6a8\"></circle><circle cx=\"50\" cy=\"65\" r=\"18\" fill=\"#e8c6a8\"></circle><circle cx=\"50\" cy=\"48\" r=\"14\" fill=\"#a9713f\"></circle></g></svg>\n<svg class=\"flower f3\" viewBox=\"0 0 100 100\"><g><circle cx=\"50\" cy=\"30\" r=\"16\" fill=\"#f3b6c9\"></circle><circle cx=\"30\" cy=\"50\" r=\"16\" fill=\"#f3b6c9\"></circle><circle cx=\"70\" cy=\"50\" r=\"16\" fill=\"#f3b6c9\"></circle><circle cx=\"50\" cy=\"65\" r=\"16\" fill=\"#f3b6c9\"></circle><circle cx=\"50\" cy=\"48\" r=\"12\" fill=\"#c9678b\"></circle></g></svg>\n<svg class=\"flower f4\" viewBox=\"0 0 100 100\"><g><circle cx=\"50\" cy=\"30\" r=\"18\" fill=\"#d3a679\"></circle><circle cx=\"30\" cy=\"50\" r=\"18\" fill=\"#d3a679\"></circle><circle cx=\"70\" cy=\"50\" r=\"18\" fill=\"#d3a679\"></circle><circle cx=\"50\" cy=\"65\" r=\"18\" fill=\"#d3a679\"></circle><circle cx=\"50\" cy=\"48\" r=\"14\" fill=\"#7a4a30\"></circle></g></svg>\n<svg class=\"flower f5\" viewBox=\"0 0 100 100\"><g><circle cx=\"50\" cy=\"30\" r=\"17\" fill=\"#f6a5c0\"></circle><circle cx=\"30\" cy=\"50\" r=\"17\" fill=\"#f6a5c0\"></circle><circle cx=\"70\" cy=\"50\" r=\"17\" fill=\"#f6a5c0\"></circle><circle cx=\"50\" cy=\"65\" r=\"17\" fill=\"#f6a5c0\"></circle><circle cx=\"50\" cy=\"48\" r=\"13\" fill=\"#a94465\"></circle></g></svg>\n<svg class=\"flower f6\" viewBox=\"0 0 100 100\"><g><circle cx=\"50\" cy=\"30\" r=\"18\" fill=\"#e8c6a8\"></circle><circle cx=\"30\" cy=\"50\" r=\"18\" fill=\"#e8c6a8\"></circle><circle cx=\"70\" cy=\"50\" r=\"18\" fill=\"#e8c6a8\"></circle><circle cx=\"50\" cy=\"65\" r=\"18\" fill=\"#e8c6a8\"></circle><circle cx=\"50\" cy=\"48\" r=\"14\" fill=\"#8a5a44\"></circle></g></svg>\n<svg class=\"flower f7\" viewBox=\"0 0 100 100\"><g><circle cx=\"50\" cy=\"30\" r=\"15\" fill=\"#f3b6c9\"></circle><circle cx=\"30\" cy=\"50\" r=\"15\" fill=\"#f3b6c9\"></circle><circle cx=\"70\" cy=\"50\" r=\"15\" fill=\"#f3b6c9\"></circle><circle cx=\"50\" cy=\"65\" r=\"15\" fill=\"#f3b6c9\"></circle><circle cx=\"50\" cy=\"48\" r=\"11\" fill=\"#d1477a\"></circle></g></svg>\n<svg class=\"flower f8\" viewBox=\"0 0 100 100\"><g><circle cx=\"50\" cy=\"30\" r=\"16\" fill=\"#f6a5c0\"></circle><circle cx=\"30\" cy=\"50\" r=\"16\" fill=\"#f6a5c0\"></circle><circle cx=\"70\" cy=\"50\" r=\"16\" fill=\"#f6a5c0\"></circle><circle cx=\"50\" cy=\"65\" r=\"16\" fill=\"#f6a5c0\"></circle><circle cx=\"50\" cy=\"48\" r=\"12\" fill=\"#c9678b\"></circle></g></svg>\n<svg class=\"flower f9\" viewBox=\"0 0 100 100\"><g><circle cx=\"50\" cy=\"30\" r=\"17\" fill=\"#d3a679\"></circle><circle cx=\"30\" cy=\"50\" r=\"17\" fill=\"#d3a679\"></circle><circle cx=\"70\" cy=\"50\" r=\"17\" fill=\"#d3a679\"></circle><circle cx=\"50\" cy=\"65\" r=\"17\" fill=\"#d3a679\"></circle><circle cx=\"50\" cy=\"48\" r=\"13\" fill=\"#7a4a30\"></circle></g></svg>\n\n<header>\n<h1>TAH DOCES GOURMET</h1>\n<p>Do\u00e7ura, carinho e sabor em cada brigadeiro \ud83d\udc95</p>\n</header>\n\n<div class=\"container\">\n<div class=\"menu-grid\">\n\n<div class=\"menu-card\">\n<h2>Brigadeiros Tradicionais</h2>\n<div class=\"price-box\">\n<strong>Cento de Brigadeiros - R$ 200</strong>\n<span>Escolha at\u00e9 4 sabores</span>\n</div>\n<div class=\"price-box\">\n<strong>Meio Cento de Brigadeiros - R$ 100</strong>\n<span>Escolha at\u00e9 2 sabores</span>\n</div>\n<div class=\"flavors-title\">Sabores dispon\u00edveis:</div>\n<div class=\"flavors-list\">\n<span class=\"flavor-tag\">Ao Leite</span>\n<span class=\"flavor-tag\">Ao Leite com Coco</span>\n<span class=\"flavor-tag\">Beijinho</span>\n<span class=\"flavor-tag\">Chocolate Branco</span>\n<span class=\"flavor-tag\">Leite Ninho</span>\n<span class=\"flavor-tag\">Bicho de P\u00e9</span>\n<span class=\"flavor-tag\">Sensa\u00e7\u00e3o</span>\n<span class=\"flavor-tag\">Prest\u00edgio</span>\n<span class=\"flavor-tag\">Casadinho</span>\n<span class=\"flavor-tag\">Maracuj\u00e1</span>\n<span class=\"flavor-tag\">Milho</span>\n<span class=\"flavor-tag\">Lim\u00e3o</span>\n<span class=\"flavor-tag\">Morangoninho</span>\n<span class=\"flavor-tag\">Meio Amargo</span>\n<span class=\"flavor-tag\">Caf\u00e9</span>\n<span class=\"flavor-tag\">Napolitano</span>\n<span class=\"flavor-tag\">Coco Queimado</span>\n<span class=\"flavor-tag\">Cajuzinho</span>\n<span class=\"flavor-tag\">Pa\u00e7oca</span>\n</div>\n</div>\n\n<div class=\"menu-card special-card\">\n<h2>Brigadeiros Especiais</h2>\n<div class=\"price-box\">\n<strong>Cento de Brigadeiros - R$ 220</strong>\n<span>Escolha at\u00e9 4 sabores</span>\n</div>\n<div class=\"price-box\">\n<strong>Meio Cento de Brigadeiros - R$ 110</strong>\n<span>Escolha at\u00e9 2 sabores</span>\n</div>\n<div class=\"flavors-title\">Sabores dispon\u00edveis:</div>\n<div class=\"flavors-list\">\n<span class=\"flavor-tag\">Floresta Negra</span>\n<span class=\"flavor-tag\">Floresta Branca</span>\n<span class=\"flavor-tag\">Ninho com Nutella</span>\n<span class=\"flavor-tag\">Surpresa de Uva</span>\n<span class=\"flavor-tag\">Churros</span>\n<span class=\"flavor-tag\">Doce de Leite</span>\n<span class=\"flavor-tag\">Doce de Leite com Coco</span>\n<span class=\"flavor-tag\">Olho de Sogra</span>\n<span class=\"flavor-tag\">Oreo</span>\n<span class=\"flavor-tag\">Ferrero</span>\n<span class=\"flavor-tag\">Confete</span>\n<span class=\"flavor-tag\">Nozes</span>\n<span class=\"flavor-tag\">Cereja</span>\n<span class=\"flavor-tag\">Romeu e Julieta</span>\n<span class=\"flavor-tag\">Bicho de P\u00e9 com Nutella</span>\n</div>\n</div>\n\n</div>\n\n<div class=\"info-section\">\n<h3>Informa\u00e7\u00f5es de Pagamento</h3>\n<p>Para realizar seu pedido \u00e9 necess\u00e1rio pagar <strong>50% do valor</strong> do pedido ou o <strong>valor total</strong> antecipado.</p>\n<div class=\"payments\">\n<div class=\"payment-item\">\n<svg viewBox=\"0 0 24 24\" fill=\"none\"><path d=\"M12 2L2 12L12 22L22 12L12 2Z\" fill=\"#a94465\"></path></svg>\nPix\n</div>\n<div class=\"payment-item\">\n<svg viewBox=\"0 0 24 24\" fill=\"none\"><circle cx=\"12\" cy=\"12\" r=\"10\" fill=\"#8a5a44\"></circle></svg>\nDinheiro\n</div>\n<div class=\"payment-item\">\n<svg viewBox=\"0 0 24 24\" fill=\"none\"><rect x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\" fill=\"#c9678b\"></rect><rect x=\"2\" y=\"9\" width=\"20\" height=\"3\" fill=\"#fff\"></rect></svg>\nCart\u00e3o de D\u00e9bito (link com acr\u00e9scimo de 2%)\n</div>\n<div class=\"payment-item\">\n<svg viewBox=\"0 0 24 24\" fill=\"none\"><rect x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\" fill=\"#b97a4a\"></rect><rect x=\"2\" y=\"9\" width=\"20\" height=\"3\" fill=\"#fff\"></rect></svg>\nCart\u00e3o de Cr\u00e9dito (link com acr\u00e9scimo de 5%)\n</div>\n</div>\n</div>\n\n<div class=\"cta-wrapper\">\n<button id=\"startBtn\" onclick=\"window.open('https://wa.me/5511998145005?text=Ola!%20Gostaria%20de%20fazer%20um%20pedido%20de%20brigadeiros%20gourmet','_blank')\" style=\"box-shadow: rgba(37, 211, 102, 0.4) 0px 10px 25px;\">\n<svg viewBox=\"0 0 24 24\" fill=\"#fff\"><path d=\"M20.5 3.5A11 11 0 0 0 3.6 17.2L2 22l4.9-1.6a11 11 0 0 0 5.1 1.3h0a11 11 0 0 0 8.5-18.2zM12 20a9 9 0 0 1-4.6-1.3l-.3-.2-3 1 1-2.9-.2-.3A9 9 0 1 1 12 20zm5-6.7c-.3-.1-1.6-.8-1.9-.9-.2-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.5.1-.3-.1-1.2-.4-2.2-1.4-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.4.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.2-.4.1-.2 0-.4 0-.5-.1-.1-.6-1.4-.8-1.9-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s1 2.6 1.1 2.7c.1.2 2 3 4.8 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.1.2-1.3-.1-.1-.3-.2-.6-.3z\"></path></svg>\nFalar com a Tah Doces no WhatsApp\n</button>\n</div>\n</div>\n\n<footer>\n\u00a9 2024 Tah Doces Gourmet - Feito com amor e muito chocolate \u2764\n</footer>\n\n<script>\ndocument.getElementById('startBtn').addEventListener('mouseenter',function(){this.style.boxShadow='0 12px 30px rgba(37,211,102,0.6)';});\ndocument.getElementById('startBtn').addEventListener('mouseleave',function(){this.style.boxShadow='0 10px 25px rgba(37,211,102,0.4)';});\n</script>\n\n</body></html>",
+                "show_button": false,
+                "button_color": "green",
+                "button_text": "PR\u00d3XIMO \u27a1\ufe0f",
+                "name": "HTML"
+            }
+        },
+        {
+            "id": "wpp_0",
+            "type": "whatsapp",
+            "position": {
+                "x": 620,
+                "y": 185
+            },
+            "data": {
+                "name": "Boas-vindas",
+                "contact": "Tah Doces Gourmet \ud83c\udf6b",
+                "avatar": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=200&h=200&fit=crop",
+                "messages": [
+                    {
+                        "type": "text",
+                        "content": "Ol\u00e1! Seja muito bem-vindo(a) \u00e0 Tah Doces Gourmet! \ud83c\udf6c\u2728\nSou a assistente virtual da confeiteira Tamires Batista.\n\nPrimeiro, me diz: qual \u00e9 o seu nome? \ud83d\ude0a",
+                        "timer": 1,
+                        "options": []
+                    }
+                ]
+            }
+        },
+        {
+            "id": "wpp_1",
+            "type": "whatsapp",
+            "position": {
+                "x": 1040,
+                "y": 185
+            },
+            "data": {
+                "name": "Decidiu o pedido?",
+                "contact": "Tah Doces Gourmet \ud83c\udf6b",
+                "avatar": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=200&h=200&fit=crop",
+                "messages": [
+                    {
+                        "type": "text",
+                        "content": "Que nome lindo! \ud83d\ude0d Fico feliz em te atender!\n\nVoc\u00ea j\u00e1 decidiu o seu pedido? \ud83c\udf6d",
+                        "timer": 1,
+                        "options": [
+                            {
+                                "text": "\u2705 Sim, j\u00e1 sei o que quero!"
+                            },
+                            {
+                                "text": "\ud83e\udd14 Ainda n\u00e3o tenho certeza"
+                            },
+                            {
+                                "text": "\ud83d\udcac Quero falar com a Tamires"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "wpp_2",
+            "type": "whatsapp",
+            "position": {
+                "x": 1460,
+                "y": -230
+            },
+            "data": {
+                "name": "Qtd docinhos",
+                "contact": "Tah Doces Gourmet \ud83c\udf6b",
+                "avatar": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=200&h=200&fit=crop",
+                "messages": [
+                    {
+                        "type": "text",
+                        "content": "\u00d3timo! Vamos montar seu pedido juntos! \ud83c\udf89\n\nQual ser\u00e1 a quantidade de docinhos do seu pedido? \ud83c\udf6c",
+                        "timer": 1,
+                        "options": [
+                            {
+                                "text": "50 unidades"
+                            },
+                            {
+                                "text": "100 unidades"
+                            },
+                            {
+                                "text": "150 unidades"
+                            },
+                            {
+                                "text": "200 unidades"
+                            },
+                            {
+                                "text": "Outra quantidade"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "wpp_3",
+            "type": "whatsapp",
+            "position": {
+                "x": 1460,
+                "y": 185
+            },
+            "data": {
+                "name": "O que falta?",
+                "contact": "Tah Doces Gourmet \ud83c\udf6b",
+                "avatar": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=200&h=200&fit=crop",
+                "messages": [
+                    {
+                        "type": "text",
+                        "content": "Sem problemas! Pode me contar o que ainda est\u00e1 em d\u00favida? Estou aqui para ajudar! \ud83d\ude0a\n\nO que falta para voc\u00ea finalizar seu pedido?",
+                        "timer": 1,
+                        "options": []
+                    }
+                ]
+            }
+        },
+        {
+            "id": "wpp_4",
+            "type": "whatsapp",
+            "position": {
+                "x": 1880,
+                "y": 415
+            },
+            "data": {
+                "name": "Encaminhar Tamires",
+                "contact": "Tah Doces Gourmet \ud83c\udf6b",
+                "avatar": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=200&h=200&fit=crop",
+                "messages": [
+                    {
+                        "type": "text",
+                        "content": "Claro! A confeiteira Tamires Batista vai adorar te atender pessoalmente! \ud83d\udc95\n\nDeseja que eu encaminhe seu contato para ela agora?",
+                        "timer": 1,
+                        "options": [
+                            {
+                                "text": "\u2705 Sim, me encaminhe para a Tamires!"
+                            },
+                            {
+                                "text": "\u21a9\ufe0f Voltar ao in\u00edcio"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "wpp_5",
+            "type": "whatsapp",
+            "position": {
+                "x": 1880,
+                "y": 185
+            },
+            "data": {
+                "name": "D\u00favida respondida?",
+                "contact": "Tah Doces Gourmet \ud83c\udf6b",
+                "avatar": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=200&h=200&fit=crop",
+                "messages": [
+                    {
+                        "type": "text",
+                        "content": "Entendido! \ud83d\udcdd A Tamires vai adorar saber disso para preparar tudo com carinho.\n\nAgora que compartilhou sua d\u00favida, quer continuar montando o pedido ou prefere falar diretamente com a Tamires? \ud83c\udf6b",
+                        "timer": 1,
+                        "options": [
+                            {
+                                "text": "\u2705 Continuar montando o pedido"
+                            },
+                            {
+                                "text": "\ud83d\udcac Prefiro falar com a Tamires"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "wpp_6",
+            "type": "whatsapp",
+            "position": {
+                "x": 1880,
+                "y": -230
+            },
+            "data": {
+                "name": "Tipo de docinhos",
+                "contact": "Tah Doces Gourmet \ud83c\udf6b",
+                "avatar": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=200&h=200&fit=crop",
+                "messages": [
+                    {
+                        "type": "text",
+                        "content": "Perfeito! \ud83e\udd70 Agora me conta:\n\nQual ser\u00e1 o tipo dos docinhos do seu pedido?",
+                        "timer": 1,
+                        "options": [
+                            {
+                                "text": "\ud83c\udf6c Tradicionais"
+                            },
+                            {
+                                "text": "\u2728 Especiais"
+                            },
+                            {
+                                "text": "\ud83c\udf8a Mistura dos dois"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "wpp_7",
+            "type": "whatsapp",
+            "position": {
+                "x": 2300,
+                "y": -230
+            },
+            "data": {
+                "name": "Sabores e qtd",
+                "contact": "Tah Doces Gourmet \ud83c\udf6b",
+                "avatar": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=200&h=200&fit=crop",
+                "messages": [
+                    {
+                        "type": "text",
+                        "content": "Delicioso! \ud83d\ude0d\ud83c\udf6b Agora vem a parte mais gostosa!\n\nMe informe os sabores e a quantidade de cada brigadeiro que voc\u00ea deseja. Por exemplo:\n\n'30 de chocolate, 20 de morango, 50 de ninho'\n\n\u00c9 s\u00f3 digitar abaixo! \ud83d\udc47",
+                        "timer": 1,
+                        "options": []
+                    }
+                ]
+            }
+        },
+        {
+            "id": "wpp_8",
+            "type": "whatsapp",
+            "position": {
+                "x": 2720,
+                "y": -230
+            },
+            "data": {
+                "name": "Data e entrega",
+                "contact": "Tah Doces Gourmet \ud83c\udf6b",
+                "avatar": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=200&h=200&fit=crop",
+                "messages": [
+                    {
+                        "type": "text",
+                        "content": "Anotado! \ud83d\udcdd\u2728 Agora me diz:\n\nPara qual data voc\u00ea precisa dos docinhos? Digite a data abaixo \ud83d\udcc5",
+                        "timer": 1,
+                        "options": []
+                    }
+                ]
+            }
+        },
+        {
+            "id": "wpp_9",
+            "type": "whatsapp",
+            "position": {
+                "x": 3140,
+                "y": -230
+            },
+            "data": {
+                "name": "Retirada ou entrega",
+                "contact": "Tah Doces Gourmet \ud83c\udf6b",
+                "avatar": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=200&h=200&fit=crop",
+                "messages": [
+                    {
+                        "type": "text",
+                        "content": "Anotei a data! \ud83d\uddd3\ufe0f E como ser\u00e1 a entrega?",
+                        "timer": 1,
+                        "options": [
+                            {
+                                "text": "\ud83c\udfe0 Vou retirar no local"
+                            },
+                            {
+                                "text": "\ud83d\udef5 Quero entrega (Uber/99)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "wpp_10",
+            "type": "whatsapp",
+            "position": {
+                "x": 3560,
+                "y": -340
+            },
+            "data": {
+                "name": "Endere\u00e7o entrega",
+                "contact": "Tah Doces Gourmet \ud83c\udf6b",
+                "avatar": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=200&h=200&fit=crop",
+                "messages": [
+                    {
+                        "type": "text",
+                        "content": "\u00d3timo! Faremos a entrega pelo aplicativo mais em conta para voc\u00ea (Uber ou 99 Entregas). \ud83d\udef5\ud83d\udc9a\n\nO frete ficar\u00e1 por sua conta, mas sempre buscamos a melhor op\u00e7\u00e3o!\n\nPode me informar seu endere\u00e7o completo para a entrega? \ud83d\udccd",
+                        "timer": 1,
+                        "options": []
+                    }
+                ]
+            }
+        },
+        {
+            "id": "wpp_11",
+            "type": "whatsapp",
+            "position": {
+                "x": 3560,
+                "y": -120
+            },
+            "data": {
+                "name": "Retirada confirmada",
+                "contact": "Tah Doces Gourmet \ud83c\udf6b",
+                "avatar": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=200&h=200&fit=crop",
+                "messages": [
+                    {
+                        "type": "text",
+                        "content": "Perfeito! Retirada no local combinado. \ud83c\udfe0\u2705\n\nJ\u00e1 vamos para a forma de pagamento!",
+                        "timer": 1,
+                        "options": [
+                            {
+                                "text": "\u27a1\ufe0f Continuar"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "wpp_12",
+            "type": "whatsapp",
+            "position": {
+                "x": 3980,
+                "y": -230
+            },
+            "data": {
+                "name": "Forma de pagamento",
+                "contact": "Tah Doces Gourmet \ud83c\udf6b",
+                "avatar": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=200&h=200&fit=crop",
+                "messages": [
+                    {
+                        "type": "text",
+                        "content": "Quase l\u00e1! \ud83c\udf89 Agora me informa:\n\nQual ser\u00e1 a forma de pagamento? \ud83d\udcb3",
+                        "timer": 1,
+                        "options": [
+                            {
+                                "text": "\ud83d\udcb8 PIX"
+                            },
+                            {
+                                "text": "\ud83d\udcb3 Cart\u00e3o de cr\u00e9dito"
+                            },
+                            {
+                                "text": "\ud83d\udcb5 Dinheiro"
+                            },
+                            {
+                                "text": "\ud83d\udcb3 Cart\u00e3o de d\u00e9bito"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "wpp_13",
+            "type": "whatsapp",
+            "position": {
+                "x": 4400,
+                "y": -230
+            },
+            "data": {
+                "name": "50% ou 100%",
+                "contact": "Tah Doces Gourmet \ud83c\udf6b",
+                "avatar": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=200&h=200&fit=crop",
+                "messages": [
+                    {
+                        "type": "text",
+                        "content": "Entendido! \ud83d\udc4d\n\nE voc\u00ea ir\u00e1 pagar o pedido de forma:",
+                        "timer": 1,
+                        "options": [
+                            {
+                                "text": "50% agora + 50% na entrega"
+                            },
+                            {
+                                "text": "\ud83d\udcaf 100% antecipado"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "wpp_14",
+            "type": "whatsapp",
+            "position": {
+                "x": 4820,
+                "y": -230
+            },
+            "data": {
+                "name": "Confirma\u00e7\u00e3o final",
+                "contact": "Tah Doces Gourmet \ud83c\udf6b",
+                "avatar": "https://images.unsplash.com/photo-1551024506-0bccd828d307?w=200&h=200&fit=crop",
+                "messages": [
+                    {
+                        "type": "text",
+                        "content": "Incr\u00edvel! Coletamos todas as informa\u00e7\u00f5es do seu pedido! \ud83c\udf6b\ud83c\udf89\n\nMuito obrigada pela prefer\u00eancia! Seu pedido est\u00e1 sendo transmitido para a nossa confeiteira Tamires Batista, e ela ir\u00e1 entrar em contato em breve para dar continuidade na finaliza\u00e7\u00e3o do pedido. \ud83d\udc95\n\nDeseja enviar suas informa\u00e7\u00f5es agora pelo WhatsApp?",
+                        "timer": 1,
+                        "options": [
+                            {
+                                "text": "\u2705 Sim, enviar agora!"
+                            },
+                            {
+                                "text": "\u21a9\ufe0f Voltar ao in\u00edcio"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "sw_0",
+            "type": "send-whatsapp",
+            "position": {
+                "x": 5240,
+                "y": -340
+            },
+            "data": {
+                "country_code": "55",
+                "phone_number": "11998145005",
+                "collect_answers": true,
+                "message": "",
+                "name": "Tamires Batista",
+                "comment": ""
+            }
+        },
+        {
+            "id": "sw_1",
+            "type": "send-whatsapp",
+            "position": {
+                "x": 2300,
+                "y": 415
+            },
+            "data": {
+                "country_code": "55",
+                "phone_number": "11998145005",
+                "collect_answers": true,
+                "message": "",
+                "name": "Falar c/ Tamires",
+                "comment": ""
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "e_wpp1_wpp2",
+            "from": "wpp_1",
+            "to": "wpp_2",
+            "option_index": 0
+        },
+        {
+            "id": "e_wpp1_wpp3",
+            "from": "wpp_1",
+            "to": "wpp_3",
+            "option_index": 1
+        },
+        {
+            "id": "e_wpp1_wpp4",
+            "from": "wpp_1",
+            "to": "wpp_4",
+            "option_index": 2
+        },
+        {
+            "id": "e_wpp5_wpp2",
+            "from": "wpp_5",
+            "to": "wpp_2",
+            "option_index": 0
+        },
+        {
+            "id": "e_wpp5_wpp4",
+            "from": "wpp_5",
+            "to": "wpp_4",
+            "option_index": 1
+        },
+        {
+            "id": "e_wpp4_sw1",
+            "from": "wpp_4",
+            "to": "sw_1",
+            "option_index": 0
+        },
+        {
+            "id": "e_wpp4_wpp0",
+            "from": "wpp_4",
+            "to": "wpp_0",
+            "option_index": 1
+        },
+        {
+            "id": "e_wpp2_wpp6",
+            "from": "wpp_2",
+            "to": "wpp_6",
+            "option_index": 0
+        },
+        {
+            "id": "e_wpp2_wpp6b",
+            "from": "wpp_2",
+            "to": "wpp_6",
+            "option_index": 1
+        },
+        {
+            "id": "e_wpp2_wpp6c",
+            "from": "wpp_2",
+            "to": "wpp_6",
+            "option_index": 2
+        },
+        {
+            "id": "e_wpp2_wpp6d",
+            "from": "wpp_2",
+            "to": "wpp_6",
+            "option_index": 3
+        },
+        {
+            "id": "e_wpp2_wpp6e",
+            "from": "wpp_2",
+            "to": "wpp_6",
+            "option_index": 4
+        },
+        {
+            "id": "e_wpp6_wpp7",
+            "from": "wpp_6",
+            "to": "wpp_7",
+            "option_index": 0
+        },
+        {
+            "id": "e_wpp6_wpp7b",
+            "from": "wpp_6",
+            "to": "wpp_7",
+            "option_index": 1
+        },
+        {
+            "id": "e_wpp6_wpp7c",
+            "from": "wpp_6",
+            "to": "wpp_7",
+            "option_index": 2
+        },
+        {
+            "id": "e_wpp9_wpp10",
+            "from": "wpp_9",
+            "to": "wpp_10",
+            "option_index": 1
+        },
+        {
+            "id": "e_wpp9_wpp11",
+            "from": "wpp_9",
+            "to": "wpp_11",
+            "option_index": 0
+        },
+        {
+            "id": "e_wpp11_wpp12",
+            "from": "wpp_11",
+            "to": "wpp_12",
+            "option_index": 0
+        },
+        {
+            "id": "e_wpp12_wpp13",
+            "from": "wpp_12",
+            "to": "wpp_13",
+            "option_index": 0
+        },
+        {
+            "id": "e_wpp12_wpp13b",
+            "from": "wpp_12",
+            "to": "wpp_13",
+            "option_index": 1
+        },
+        {
+            "id": "e_wpp12_wpp13c",
+            "from": "wpp_12",
+            "to": "wpp_13",
+            "option_index": 2
+        },
+        {
+            "id": "e_wpp12_wpp13d",
+            "from": "wpp_12",
+            "to": "wpp_13",
+            "option_index": 3
+        },
+        {
+            "id": "e_wpp13_wpp14",
+            "from": "wpp_13",
+            "to": "wpp_14",
+            "option_index": 0
+        },
+        {
+            "id": "e_wpp13_wpp14b",
+            "from": "wpp_13",
+            "to": "wpp_14",
+            "option_index": 1
+        },
+        {
+            "id": "e_wpp14_sw0",
+            "from": "wpp_14",
+            "to": "sw_0",
+            "option_index": 0
+        },
+        {
+            "id": "e_wpp14_wpp0",
+            "from": "wpp_14",
+            "to": "wpp_0",
+            "option_index": 1
+        },
+        {
+            "from": "node_1mrxl1rce",
+            "to": "wpp_0"
+        },
+        {
+            "from": "wpp_0",
+            "to": "wpp_1"
+        },
+        {
+            "from": "wpp_3",
+            "to": "wpp_5"
+        },
+        {
+            "from": "wpp_7",
+            "to": "wpp_8"
+        },
+        {
+            "from": "wpp_8",
+            "to": "wpp_9"
+        },
+        {
+            "from": "wpp_10",
+            "to": "wpp_12"
+        }
+    ],
+    "track_labels": []
+}
